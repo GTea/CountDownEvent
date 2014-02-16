@@ -7,13 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961CB108189D405F00CC2816 /* paopao_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 961CB107189D405F00CC2816 /* paopao_bg.png */; };
+		961CB10A189E60C700CC2816 /* car.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 961CB109189E60C700CC2816 /* car.JPG */; };
+		961CB10C189E63DC00CC2816 /* Event.plist in Resources */ = {isa = PBXBuildFile; fileRef = 961CB10B189E63DC00CC2816 /* Event.plist */; };
+		961CB113189E668500CC2816 /* CountDownEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CB112189E668500CC2816 /* CountDownEvent.m */; };
+		9642E07F18968D8C0066BFCB /* NavigationCountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9642E07E18968D8C0066BFCB /* NavigationCountDownViewController.m */; };
+		9642E081189803A00066BFCB /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 9642E080189803A00066BFCB /* user.png */; };
+		9642E0861898042A0066BFCB /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 9642E0841898042A0066BFCB /* setting.png */; };
+		9642E0871898042A0066BFCB /* suggest.png in Resources */ = {isa = PBXBuildFile; fileRef = 9642E0851898042A0066BFCB /* suggest.png */; };
+		9642E089189807190066BFCB /* historyEvent.png in Resources */ = {isa = PBXBuildFile; fileRef = 9642E088189807190066BFCB /* historyEvent.png */; };
+		96BF9B5D189FC4B6009B5682 /* EventTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF9B5C189FC4B6009B5682 /* EventTypeViewController.m */; };
+		96BF9B61189FC522009B5682 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF9B5F189FC522009B5682 /* EventDetailViewController.m */; };
+		96BF9B6418A08736009B5682 /* EventRepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF9B6318A08736009B5682 /* EventRepeatViewController.m */; };
+		96BF9B6E18A11E55009B5682 /* IDJCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF9B6718A11E55009B5682 /* IDJCalendar.m */; };
+		96BF9B6F18A11E55009B5682 /* IDJCalendarUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96BF9B6918A11E55009B5682 /* IDJCalendarUtil.mm */; };
+		96BF9B7018A11E55009B5682 /* IDJChineseCalendar.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96BF9B6B18A11E55009B5682 /* IDJChineseCalendar.mm */; };
+		96BF9B7118A11E55009B5682 /* IDJDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF9B6D18A11E55009B5682 /* IDJDatePickerView.m */; };
+		96BF9B8018A11F26009B5682 /* IDJPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF9B7418A11F26009B5682 /* IDJPickerView.m */; };
+		96BF9B8118A11F26009B5682 /* IDJScrollComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF9B7618A11F26009B5682 /* IDJScrollComponent.m */; };
+		96BF9B8218A11F26009B5682 /* date_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BF9B7818A11F26009B5682 /* date_bg.png */; };
+		96BF9B8318A11F26009B5682 /* date_selection_center.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BF9B7918A11F26009B5682 /* date_selection_center.png */; };
+		96BF9B8418A11F26009B5682 /* date_selection_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BF9B7A18A11F26009B5682 /* date_selection_left.png */; };
+		96BF9B8518A11F26009B5682 /* date_selection_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BF9B7B18A11F26009B5682 /* date_selection_right.png */; };
+		96BF9B8618A11F26009B5682 /* date_wheel_center.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BF9B7C18A11F26009B5682 /* date_wheel_center.png */; };
+		96BF9B8718A11F26009B5682 /* date_wheel_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BF9B7D18A11F26009B5682 /* date_wheel_left.png */; };
+		96BF9B8818A11F26009B5682 /* date_wheel_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BF9B7E18A11F26009B5682 /* date_wheel_right.png */; };
+		96BF9B8918A11F26009B5682 /* date_wheel_seperated_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BF9B7F18A11F26009B5682 /* date_wheel_seperated_line.png */; };
+		96BF9B9118A12069009B5682 /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96BF9B8B18A12069009B5682 /* ChineseCalendarDB.cpp */; };
+		96BF9B9218A12069009B5682 /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96BF9B8D18A12069009B5682 /* ChineseDate.cpp */; };
+		96BF9B9318A12069009B5682 /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96BF9B8F18A12069009B5682 /* SolarDate.cpp */; };
 		96C30DEA189539B5004A273E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C30DE9189539B5004A273E /* Foundation.framework */; };
 		96C30DEC189539B5004A273E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C30DEB189539B5004A273E /* CoreGraphics.framework */; };
 		96C30DEE189539B5004A273E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C30DED189539B5004A273E /* UIKit.framework */; };
-		96C30DF4189539B5004A273E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96C30DF2189539B5004A273E /* InfoPlist.strings */; };
 		96C30DF6189539B5004A273E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C30DF5189539B5004A273E /* main.m */; };
-		96C30DFA189539B5004A273E /* CountDownAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C30DF9189539B5004A273E /* CountDownAppDelegate.m */; };
-		96C30DFD189539B5004A273E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C30DFB189539B5004A273E /* Main.storyboard */; };
 		96C30E00189539B5004A273E /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C30DFF189539B5004A273E /* CountDownViewController.m */; };
 		96C30E02189539B5004A273E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C30E01189539B5004A273E /* Images.xcassets */; };
 		96C30E09189539B5004A273E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C30E08189539B5004A273E /* XCTest.framework */; };
@@ -21,6 +47,20 @@
 		96C30E0B189539B5004A273E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C30DED189539B5004A273E /* UIKit.framework */; };
 		96C30E13189539B5004A273E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96C30E11189539B5004A273E /* InfoPlist.strings */; };
 		96C30E15189539B5004A273E /* CountDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C30E14189539B5004A273E /* CountDownTests.m */; };
+		96C30E4218955A77004A273E /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C30E4118955A77004A273E /* LeftMenuViewController.m */; };
+		96C30E6218956267004A273E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C30E6118956267004A273E /* QuartzCore.framework */; };
+		96C30EAE18956CCA004A273E /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C30EAB18956CCA004A273E /* ECSlidingViewController.m */; };
+		96C30EAF18956CCA004A273E /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C30EAD18956CCA004A273E /* UIImage+ImageWithUIView.m */; };
+		96C30EB018956E91004A273E /* CountDownAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C30DF9189539B5004A273E /* CountDownAppDelegate.m */; };
+		96D71D32189604AB006DC35E /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D71D31189604AB006DC35E /* MainController.m */; };
+		96D71D5918964163006DC35E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96D71D5818964163006DC35E /* InfoPlist.strings */; };
+		96D71D5B189641D6006DC35E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D71D5A189641D6006DC35E /* Main.storyboard */; };
+		96D71D5E18964221006DC35E /* AddNewEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D71D5D18964221006DC35E /* AddNewEventViewController.m */; };
+		96D71D6018965A11006DC35E /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D71D5F18965A11006DC35E /* left_arrow.png */; };
+		96D71D6218965DE2006DC35E /* back-vector-icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D71D6118965DE2006DC35E /* back-vector-icon-256.png */; };
+		96D71D6418965E32006DC35E /* Back-Vector-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D71D6318965E32006DC35E /* Back-Vector-32.png */; };
+		96D71D6618965E69006DC35E /* Back-Vector-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D71D6518965E69006DC35E /* Back-Vector-48.png */; };
+		96D71D6818965F04006DC35E /* Back-Vector-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D71D6718965F04006DC35E /* Back-Vector-64.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +74,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		961CB107189D405F00CC2816 /* paopao_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paopao_bg.png; path = CountDown/Resources/paopao_bg.png; sourceTree = "<group>"; };
+		961CB109189E60C700CC2816 /* car.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = car.JPG; path = CountDown/Resources/car.JPG; sourceTree = "<group>"; };
+		961CB10B189E63DC00CC2816 /* Event.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Event.plist; sourceTree = "<group>"; };
+		961CB111189E668500CC2816 /* CountDownEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownEvent.h; sourceTree = "<group>"; };
+		961CB112189E668500CC2816 /* CountDownEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownEvent.m; sourceTree = "<group>"; };
+		9642E07D18968D8C0066BFCB /* NavigationCountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationCountDownViewController.h; sourceTree = "<group>"; };
+		9642E07E18968D8C0066BFCB /* NavigationCountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationCountDownViewController.m; sourceTree = "<group>"; };
+		9642E080189803A00066BFCB /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = CountDown/Resources/user.png; sourceTree = "<group>"; };
+		9642E0841898042A0066BFCB /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setting.png; path = CountDown/Resources/setting.png; sourceTree = "<group>"; };
+		9642E0851898042A0066BFCB /* suggest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = suggest.png; path = CountDown/Resources/suggest.png; sourceTree = "<group>"; };
+		9642E088189807190066BFCB /* historyEvent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = historyEvent.png; path = CountDown/Resources/historyEvent.png; sourceTree = "<group>"; };
+		96BF9B5B189FC4B6009B5682 /* EventTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTypeViewController.h; sourceTree = "<group>"; };
+		96BF9B5C189FC4B6009B5682 /* EventTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTypeViewController.m; sourceTree = "<group>"; };
+		96BF9B5E189FC522009B5682 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventDetailViewController.h; path = AddEvent/EventDetailViewController.h; sourceTree = "<group>"; };
+		96BF9B5F189FC522009B5682 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventDetailViewController.m; path = AddEvent/EventDetailViewController.m; sourceTree = "<group>"; };
+		96BF9B60189FC522009B5682 /* EventTypeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventTypeDelegate.h; path = AddEvent/EventTypeDelegate.h; sourceTree = "<group>"; };
+		96BF9B6218A08736009B5682 /* EventRepeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventRepeatViewController.h; path = AddEvent/EventRepeatViewController.h; sourceTree = "<group>"; };
+		96BF9B6318A08736009B5682 /* EventRepeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventRepeatViewController.m; path = AddEvent/EventRepeatViewController.m; sourceTree = "<group>"; };
+		96BF9B6618A11E55009B5682 /* IDJCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJCalendar.h; sourceTree = "<group>"; };
+		96BF9B6718A11E55009B5682 /* IDJCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDJCalendar.m; sourceTree = "<group>"; };
+		96BF9B6818A11E55009B5682 /* IDJCalendarUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJCalendarUtil.h; sourceTree = "<group>"; };
+		96BF9B6918A11E55009B5682 /* IDJCalendarUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IDJCalendarUtil.mm; sourceTree = "<group>"; };
+		96BF9B6A18A11E55009B5682 /* IDJChineseCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJChineseCalendar.h; sourceTree = "<group>"; };
+		96BF9B6B18A11E55009B5682 /* IDJChineseCalendar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IDJChineseCalendar.mm; sourceTree = "<group>"; };
+		96BF9B6C18A11E55009B5682 /* IDJDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJDatePickerView.h; sourceTree = "<group>"; };
+		96BF9B6D18A11E55009B5682 /* IDJDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDJDatePickerView.m; sourceTree = "<group>"; };
+		96BF9B7318A11F26009B5682 /* IDJPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJPickerView.h; sourceTree = "<group>"; };
+		96BF9B7418A11F26009B5682 /* IDJPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDJPickerView.m; sourceTree = "<group>"; };
+		96BF9B7518A11F26009B5682 /* IDJScrollComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJScrollComponent.h; sourceTree = "<group>"; };
+		96BF9B7618A11F26009B5682 /* IDJScrollComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDJScrollComponent.m; sourceTree = "<group>"; };
+		96BF9B7818A11F26009B5682 /* date_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_bg.png; sourceTree = "<group>"; };
+		96BF9B7918A11F26009B5682 /* date_selection_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_selection_center.png; sourceTree = "<group>"; };
+		96BF9B7A18A11F26009B5682 /* date_selection_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_selection_left.png; sourceTree = "<group>"; };
+		96BF9B7B18A11F26009B5682 /* date_selection_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_selection_right.png; sourceTree = "<group>"; };
+		96BF9B7C18A11F26009B5682 /* date_wheel_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_wheel_center.png; sourceTree = "<group>"; };
+		96BF9B7D18A11F26009B5682 /* date_wheel_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_wheel_left.png; sourceTree = "<group>"; };
+		96BF9B7E18A11F26009B5682 /* date_wheel_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_wheel_right.png; sourceTree = "<group>"; };
+		96BF9B7F18A11F26009B5682 /* date_wheel_seperated_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_wheel_seperated_line.png; sourceTree = "<group>"; };
+		96BF9B8B18A12069009B5682 /* ChineseCalendarDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseCalendarDB.cpp; sourceTree = "<group>"; };
+		96BF9B8C18A12069009B5682 /* ChineseCalendarDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCalendarDB.h; sourceTree = "<group>"; };
+		96BF9B8D18A12069009B5682 /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseDate.cpp; sourceTree = "<group>"; };
+		96BF9B8E18A12069009B5682 /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseDate.h; sourceTree = "<group>"; };
+		96BF9B8F18A12069009B5682 /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolarDate.cpp; sourceTree = "<group>"; };
+		96BF9B9018A12069009B5682 /* SolarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarDate.h; sourceTree = "<group>"; };
 		96C30DE6189539B5004A273E /* CountDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C30DE9189539B5004A273E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		96C30DEB189539B5004A273E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		96C30DED189539B5004A273E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96C30DF1189539B5004A273E /* CountDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountDown-Info.plist"; sourceTree = "<group>"; };
-		96C30DF3189539B5004A273E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96C30DF5189539B5004A273E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96C30DF7189539B5004A273E /* CountDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CountDown-Prefix.pch"; sourceTree = "<group>"; };
 		96C30DF8189539B5004A273E /* CountDownAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDownAppDelegate.h; sourceTree = "<group>"; };
 		96C30DF9189539B5004A273E /* CountDownAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownAppDelegate.m; sourceTree = "<group>"; };
-		96C30DFC189539B5004A273E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96C30DFE189539B5004A273E /* CountDownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
 		96C30DFF189539B5004A273E /* CountDownViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownViewController.m; sourceTree = "<group>"; };
 		96C30E01189539B5004A273E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +135,24 @@
 		96C30E10189539B5004A273E /* CountDownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountDownTests-Info.plist"; sourceTree = "<group>"; };
 		96C30E12189539B5004A273E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96C30E14189539B5004A273E /* CountDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownTests.m; sourceTree = "<group>"; };
+		96C30E4018955A77004A273E /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		96C30E4118955A77004A273E /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		96C30E6118956267004A273E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		96C30EAA18956CCA004A273E /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		96C30EAB18956CCA004A273E /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		96C30EAC18956CCA004A273E /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		96C30EAD18956CCA004A273E /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		96D71D30189604AB006DC35E /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		96D71D31189604AB006DC35E /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		96D71D5818964163006DC35E /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		96D71D5A189641D6006DC35E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		96D71D5C18964221006DC35E /* AddNewEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddNewEventViewController.h; path = AddEvent/AddNewEventViewController.h; sourceTree = "<group>"; };
+		96D71D5D18964221006DC35E /* AddNewEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddNewEventViewController.m; path = AddEvent/AddNewEventViewController.m; sourceTree = "<group>"; };
+		96D71D5F18965A11006DC35E /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left_arrow.png; path = CountDown/Resources/left_arrow.png; sourceTree = "<group>"; };
+		96D71D6118965DE2006DC35E /* back-vector-icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-vector-icon-256.png"; path = "CountDown/Resources/back-vector-icon-256.png"; sourceTree = "<group>"; };
+		96D71D6318965E32006DC35E /* Back-Vector-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Back-Vector-32.png"; path = "CountDown/Resources/Back-Vector-32.png"; sourceTree = "<group>"; };
+		96D71D6518965E69006DC35E /* Back-Vector-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Back-Vector-48.png"; path = "CountDown/Resources/Back-Vector-48.png"; sourceTree = "<group>"; };
+		96D71D6718965F04006DC35E /* Back-Vector-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Back-Vector-64.png"; path = "CountDown/Resources/Back-Vector-64.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C30E6218956267004A273E /* QuartzCore.framework in Frameworks */,
 				96C30DEC189539B5004A273E /* CoreGraphics.framework in Frameworks */,
 				96C30DEE189539B5004A273E /* UIKit.framework in Frameworks */,
 				96C30DEA189539B5004A273E /* Foundation.framework in Frameworks */,
@@ -79,9 +180,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		961CB0F7189CF23E00CC2816 /* DayList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DayList;
+			sourceTree = "<group>";
+		};
+		96BF9B6518A11E55009B5682 /* datepicker */ = {
+			isa = PBXGroup;
+			children = (
+				96BF9B6618A11E55009B5682 /* IDJCalendar.h */,
+				96BF9B6718A11E55009B5682 /* IDJCalendar.m */,
+				96BF9B6818A11E55009B5682 /* IDJCalendarUtil.h */,
+				96BF9B6918A11E55009B5682 /* IDJCalendarUtil.mm */,
+				96BF9B6A18A11E55009B5682 /* IDJChineseCalendar.h */,
+				96BF9B6B18A11E55009B5682 /* IDJChineseCalendar.mm */,
+				96BF9B6C18A11E55009B5682 /* IDJDatePickerView.h */,
+				96BF9B6D18A11E55009B5682 /* IDJDatePickerView.m */,
+			);
+			path = datepicker;
+			sourceTree = "<group>";
+		};
+		96BF9B7218A11F26009B5682 /* pickerview */ = {
+			isa = PBXGroup;
+			children = (
+				96BF9B7318A11F26009B5682 /* IDJPickerView.h */,
+				96BF9B7418A11F26009B5682 /* IDJPickerView.m */,
+				96BF9B7518A11F26009B5682 /* IDJScrollComponent.h */,
+				96BF9B7618A11F26009B5682 /* IDJScrollComponent.m */,
+				96BF9B7718A11F26009B5682 /* images */,
+			);
+			path = pickerview;
+			sourceTree = "<group>";
+		};
+		96BF9B7718A11F26009B5682 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				96BF9B7818A11F26009B5682 /* date_bg.png */,
+				96BF9B7918A11F26009B5682 /* date_selection_center.png */,
+				96BF9B7A18A11F26009B5682 /* date_selection_left.png */,
+				96BF9B7B18A11F26009B5682 /* date_selection_right.png */,
+				96BF9B7C18A11F26009B5682 /* date_wheel_center.png */,
+				96BF9B7D18A11F26009B5682 /* date_wheel_left.png */,
+				96BF9B7E18A11F26009B5682 /* date_wheel_right.png */,
+				96BF9B7F18A11F26009B5682 /* date_wheel_seperated_line.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		96BF9B8A18A12069009B5682 /* solar_chinese_calendar */ = {
+			isa = PBXGroup;
+			children = (
+				96BF9B8B18A12069009B5682 /* ChineseCalendarDB.cpp */,
+				96BF9B8C18A12069009B5682 /* ChineseCalendarDB.h */,
+				96BF9B8D18A12069009B5682 /* ChineseDate.cpp */,
+				96BF9B8E18A12069009B5682 /* ChineseDate.h */,
+				96BF9B8F18A12069009B5682 /* SolarDate.cpp */,
+				96BF9B9018A12069009B5682 /* SolarDate.h */,
+			);
+			path = solar_chinese_calendar;
+			sourceTree = "<group>";
+		};
 		96C30DDD189539B5004A273E = {
 			isa = PBXGroup;
 			children = (
+				96C30EA818956CCA004A273E /* Vendor */,
+				96C30E1E18954550004A273E /* Resources */,
 				96C30DEF189539B5004A273E /* CountDown */,
 				96C30E0E189539B5004A273E /* CountDownTests */,
 				96C30DE8189539B5004A273E /* Frameworks */,
@@ -101,6 +266,7 @@
 		96C30DE8189539B5004A273E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				96C30E6118956267004A273E /* QuartzCore.framework */,
 				96C30DE9189539B5004A273E /* Foundation.framework */,
 				96C30DEB189539B5004A273E /* CoreGraphics.framework */,
 				96C30DED189539B5004A273E /* UIKit.framework */,
@@ -112,13 +278,24 @@
 		96C30DEF189539B5004A273E /* CountDown */ = {
 			isa = PBXGroup;
 			children = (
+				96BF9B8A18A12069009B5682 /* solar_chinese_calendar */,
+				96BF9B7218A11F26009B5682 /* pickerview */,
+				96BF9B6518A11E55009B5682 /* datepicker */,
+				961CB0F7189CF23E00CC2816 /* DayList */,
+				96D71D5A189641D6006DC35E /* Main.storyboard */,
+				96D71D3318963E73006DC35E /* Event */,
+				96D71D30189604AB006DC35E /* MainController.h */,
+				96D71D31189604AB006DC35E /* MainController.m */,
 				96C30DF8189539B5004A273E /* CountDownAppDelegate.h */,
 				96C30DF9189539B5004A273E /* CountDownAppDelegate.m */,
-				96C30DFB189539B5004A273E /* Main.storyboard */,
 				96C30DFE189539B5004A273E /* CountDownViewController.h */,
 				96C30DFF189539B5004A273E /* CountDownViewController.m */,
 				96C30E01189539B5004A273E /* Images.xcassets */,
 				96C30DF0189539B5004A273E /* Supporting Files */,
+				96C30E4018955A77004A273E /* LeftMenuViewController.h */,
+				96C30E4118955A77004A273E /* LeftMenuViewController.m */,
+				9642E07D18968D8C0066BFCB /* NavigationCountDownViewController.h */,
+				9642E07E18968D8C0066BFCB /* NavigationCountDownViewController.m */,
 			);
 			path = CountDown;
 			sourceTree = "<group>";
@@ -126,8 +303,9 @@
 		96C30DF0189539B5004A273E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				961CB10B189E63DC00CC2816 /* Event.plist */,
 				96C30DF1189539B5004A273E /* CountDown-Info.plist */,
-				96C30DF2189539B5004A273E /* InfoPlist.strings */,
+				96D71D5818964163006DC35E /* InfoPlist.strings */,
 				96C30DF5189539B5004A273E /* main.m */,
 				96C30DF7189539B5004A273E /* CountDown-Prefix.pch */,
 			);
@@ -150,6 +328,62 @@
 				96C30E11189539B5004A273E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96C30E1E18954550004A273E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				961CB109189E60C700CC2816 /* car.JPG */,
+				961CB107189D405F00CC2816 /* paopao_bg.png */,
+				9642E088189807190066BFCB /* historyEvent.png */,
+				9642E0841898042A0066BFCB /* setting.png */,
+				9642E0851898042A0066BFCB /* suggest.png */,
+				9642E080189803A00066BFCB /* user.png */,
+				96D71D6718965F04006DC35E /* Back-Vector-64.png */,
+				96D71D6518965E69006DC35E /* Back-Vector-48.png */,
+				96D71D6318965E32006DC35E /* Back-Vector-32.png */,
+				96D71D6118965DE2006DC35E /* back-vector-icon-256.png */,
+				96D71D5F18965A11006DC35E /* left_arrow.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		96C30EA818956CCA004A273E /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				96C30EA918956CCA004A273E /* ECSlidingViewController */,
+			);
+			name = Vendor;
+			path = CountDown/Vendor;
+			sourceTree = "<group>";
+		};
+		96C30EA918956CCA004A273E /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				96C30EAA18956CCA004A273E /* ECSlidingViewController.h */,
+				96C30EAB18956CCA004A273E /* ECSlidingViewController.m */,
+				96C30EAC18956CCA004A273E /* UIImage+ImageWithUIView.h */,
+				96C30EAD18956CCA004A273E /* UIImage+ImageWithUIView.m */,
+			);
+			path = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		96D71D3318963E73006DC35E /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				96BF9B5E189FC522009B5682 /* EventDetailViewController.h */,
+				96BF9B5F189FC522009B5682 /* EventDetailViewController.m */,
+				96BF9B60189FC522009B5682 /* EventTypeDelegate.h */,
+				96BF9B5B189FC4B6009B5682 /* EventTypeViewController.h */,
+				96BF9B5C189FC4B6009B5682 /* EventTypeViewController.m */,
+				96D71D5C18964221006DC35E /* AddNewEventViewController.h */,
+				96D71D5D18964221006DC35E /* AddNewEventViewController.m */,
+				961CB111189E668500CC2816 /* CountDownEvent.h */,
+				961CB112189E668500CC2816 /* CountDownEvent.m */,
+				96BF9B6218A08736009B5682 /* EventRepeatViewController.h */,
+				96BF9B6318A08736009B5682 /* EventRepeatViewController.m */,
+			);
+			name = Event;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +463,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D71D6418965E32006DC35E /* Back-Vector-32.png in Resources */,
+				961CB108189D405F00CC2816 /* paopao_bg.png in Resources */,
+				96BF9B8318A11F26009B5682 /* date_selection_center.png in Resources */,
+				96BF9B8418A11F26009B5682 /* date_selection_left.png in Resources */,
+				96BF9B8918A11F26009B5682 /* date_wheel_seperated_line.png in Resources */,
+				96D71D6618965E69006DC35E /* Back-Vector-48.png in Resources */,
+				9642E081189803A00066BFCB /* user.png in Resources */,
+				96BF9B8618A11F26009B5682 /* date_wheel_center.png in Resources */,
+				96BF9B8718A11F26009B5682 /* date_wheel_left.png in Resources */,
+				96BF9B8218A11F26009B5682 /* date_bg.png in Resources */,
+				961CB10C189E63DC00CC2816 /* Event.plist in Resources */,
 				96C30E02189539B5004A273E /* Images.xcassets in Resources */,
-				96C30DF4189539B5004A273E /* InfoPlist.strings in Resources */,
-				96C30DFD189539B5004A273E /* Main.storyboard in Resources */,
+				961CB10A189E60C700CC2816 /* car.JPG in Resources */,
+				96BF9B8518A11F26009B5682 /* date_selection_right.png in Resources */,
+				96D71D6218965DE2006DC35E /* back-vector-icon-256.png in Resources */,
+				96BF9B8818A11F26009B5682 /* date_wheel_right.png in Resources */,
+				9642E0861898042A0066BFCB /* setting.png in Resources */,
+				96D71D5918964163006DC35E /* InfoPlist.strings in Resources */,
+				96D71D6818965F04006DC35E /* Back-Vector-64.png in Resources */,
+				9642E0871898042A0066BFCB /* suggest.png in Resources */,
+				96D71D6018965A11006DC35E /* left_arrow.png in Resources */,
+				96D71D5B189641D6006DC35E /* Main.storyboard in Resources */,
+				9642E089189807190066BFCB /* historyEvent.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +504,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96C30DFA189539B5004A273E /* CountDownAppDelegate.m in Sources */,
+				96BF9B7118A11E55009B5682 /* IDJDatePickerView.m in Sources */,
+				96D71D32189604AB006DC35E /* MainController.m in Sources */,
+				96BF9B6418A08736009B5682 /* EventRepeatViewController.m in Sources */,
+				96C30EB018956E91004A273E /* CountDownAppDelegate.m in Sources */,
+				96BF9B6E18A11E55009B5682 /* IDJCalendar.m in Sources */,
+				96BF9B9118A12069009B5682 /* ChineseCalendarDB.cpp in Sources */,
+				96D71D5E18964221006DC35E /* AddNewEventViewController.m in Sources */,
 				96C30DF6189539B5004A273E /* main.m in Sources */,
+				96C30E4218955A77004A273E /* LeftMenuViewController.m in Sources */,
+				9642E07F18968D8C0066BFCB /* NavigationCountDownViewController.m in Sources */,
+				96BF9B61189FC522009B5682 /* EventDetailViewController.m in Sources */,
+				96BF9B9318A12069009B5682 /* SolarDate.cpp in Sources */,
+				96BF9B8018A11F26009B5682 /* IDJPickerView.m in Sources */,
 				96C30E00189539B5004A273E /* CountDownViewController.m in Sources */,
+				96BF9B9218A12069009B5682 /* ChineseDate.cpp in Sources */,
+				961CB113189E668500CC2816 /* CountDownEvent.m in Sources */,
+				96BF9B6F18A11E55009B5682 /* IDJCalendarUtil.mm in Sources */,
+				96C30EAE18956CCA004A273E /* ECSlidingViewController.m in Sources */,
+				96BF9B8118A11F26009B5682 /* IDJScrollComponent.m in Sources */,
+				96BF9B7018A11E55009B5682 /* IDJChineseCalendar.mm in Sources */,
+				96C30EAF18956CCA004A273E /* UIImage+ImageWithUIView.m in Sources */,
+				96BF9B5D189FC4B6009B5682 /* EventTypeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,22 +548,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		96C30DF2189539B5004A273E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96C30DF3189539B5004A273E /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		96C30DFB189539B5004A273E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96C30DFC189539B5004A273E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		96C30E11189539B5004A273E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -377,11 +634,18 @@
 		96C30E19189539B5004A273E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CountDown/CountDown-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "CountDown/CountDown-Info.plist";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,11 +654,18 @@
 		96C30E1A189539B5004A273E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CountDown/CountDown-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "CountDown/CountDown-Info.plist";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +732,7 @@
 				96C30E1A189539B5004A273E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96C30E1B189539B5004A273E /* Build configuration list for PBXNativeTarget "CountDownTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +741,7 @@
 				96C30E1D189539B5004A273E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
